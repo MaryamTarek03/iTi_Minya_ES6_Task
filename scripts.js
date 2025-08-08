@@ -1,7 +1,7 @@
 // Task 1
-// ((a, b) => {
-//   alert(a + b);
-// })(5, 7);
+((a, b) => {
+  alert(a + b);
+})(5, 7);
 
 // Task 2
 const indieGames = ["Undertale", "Celeste", "Hollow Knight", "Stardew Valley"];
@@ -69,7 +69,7 @@ function* tipGenerator() {
     "Use spread/rest operators",
     "Master async/await",
     "Use map/filter/reduce",
-    "Debug with console.log wisely"
+    "Debug with console.log wisely",
   ];
   for (let tip of tips) {
     yield tip;
@@ -95,4 +95,3 @@ document.getElementById("showTipsInterval").addEventListener("click", () => {
     }
   }, 3000);
 });
-
